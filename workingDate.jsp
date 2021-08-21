@@ -1,9 +1,12 @@
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Guru current Date</title>
-</head>
-<body>
-Today's date: <%= (new java.util.Date()).toLocaleString()%>
-</body>
+   <head>
+      <title>Setting HTTP Status Code</title>
+   </head>
+   
+   <body>
+      <%
+         // Set error code and reason.
+         response.sendError(407, "Need authentication!!!" );
+      %>
+   </body>
 </html>
