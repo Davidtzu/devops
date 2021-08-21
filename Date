@@ -1,0 +1,11 @@
+<html>
+   <head>
+      <title>Setting HTTP Status Code</title>
+   </head>
+   
+   <body>
+      <% DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
+      LocalDateTime now = LocalDateTime.now(); 
+      %>
+   </body>
+</html>
